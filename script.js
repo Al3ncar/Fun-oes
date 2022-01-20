@@ -2,7 +2,7 @@
 
 function welcome(){
     console.log("Olá")
-    console.log("Sejá bem-vindo")
+    console.log("Sejá bem-vind@(e)")
 }
 welcome()
 
@@ -18,14 +18,14 @@ yourName("Igor")
 function profile (name, yearOld, music){ 
     console.log(`Usuário: ${name}`)
     console.log(`Idade:${yearOld}`)
-    console.log(`Música Favorita: ${music}`)
+    console.log(`Tipo de música favorita: ${music}`)
 }
-profile("Al3ncar", "17 anos", "Tim maia")
+profile("Al3ncar", "17 anos", "Rap")
 
 //---------04----------//
 
 function leisure(music, film){
-    console.log(`Recomendações`)
+    console.log(`Recomendações:`)
     console.log(`Venha ouvir essa música ${music}`)
     console.log(`Veja já o novo filme: ${film}`)
 }
